@@ -12,3 +12,5 @@ WireGuard.getConfig()
     // eslint-disable-next-line no-process-exit
     process.exit(1);
   });
+
+setTimeout(() => console.log("End"), 1000000000)
